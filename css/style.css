@@ -47,6 +47,10 @@ html {
   #who img {
     margin-top: 15%;
   }
+
+  #footer {
+    text-align: center;
+  }
 }
 
 .navbar {
@@ -204,6 +208,7 @@ html {
 
 #customers {
   padding: 5rem 0;
+  overflow: hidden;
 }
 
 #customers .carousel-indicators li {
@@ -216,4 +221,59 @@ html {
 
 #customers .carousel-indicators {
   margin-bottom: -3.5rem;
+}
+
+
+
+/* PRICING */
+
+#pricing {
+  padding: 5rem 0;
+  background-color: #f6f6f6;
+}
+
+#pricing .card .card-header {
+  background-color: #6e6e6e;
+  color: white;
+}
+
+#pricing .card .card-header:hover {
+  background-color: #be2835;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+#pricing .card .standard {
+  background-color: #be2835;
+  color: white;
+  font-size: 1.2em;
+  padding: 1rem 0;
+}
+
+#pricing .card {
+  margin-top: 1.2rem;
+}
+
+
+/* CONTACT */
+
+#contact {
+  padding: 5rem 0;
+}
+
+
+/* FOOTER */
+
+#footer {
+  padding: 2rem 0;
+  background-color: #484848;
+  color: white;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer .fa {
+  padding: 0 0.25rem;
 }
